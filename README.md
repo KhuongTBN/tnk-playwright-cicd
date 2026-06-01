@@ -1,6 +1,6 @@
 # Playwright CI/CD Portfolio
 
-![Playwright Tests](https://github.com/KhuongTBN/day7-playwright-cicd/actions/workflows/playwright.yml/badge.svg)
+![Playwright Tests](https://github.com/KhuongTBN/tnk-playwright-cicd/actions/workflows/playwright.yml/badge.svg)
 
 ## Tech Stack
 - Playwright Test Framework
