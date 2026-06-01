@@ -16,6 +16,8 @@ test.describe('Playwright.dev - Portfolio Tests', () => {
   test('API reference page loads', async ({ page }) => {
     await page.goto('https://playwright.dev/docs/api/class-page');
     await expect(page).toHaveTitle(/Page/);
+    await expect(page).toHaveTitle(/Playwright/);
+    await expect(page.getByRole('heading', { level: 1 })).toBeVisible();
   });
 
 });
